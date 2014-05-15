@@ -14,7 +14,7 @@
 		2E1EA6ED1923C5050027790D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1EA6EC1923C5050027790D /* main.m */; };
 		2E1EA6F11923C5050027790D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1EA6F01923C5050027790D /* AppDelegate.m */; };
 		2E1EA6F41923C5050027790D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1EA6F21923C5050027790D /* Main.storyboard */; };
-		2E1EA6F71923C5050027790D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1EA6F61923C5050027790D /* ViewController.m */; };
+		2E1EA6F71923C5050027790D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1EA6F61923C5050027790D /* WebViewController.m */; };
 		2E1EA6F91923C5050027790D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E1EA6F81923C5050027790D /* Images.xcassets */; };
 		2E1EA7001923C5050027790D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1EA6FF1923C5050027790D /* XCTest.framework */; };
 		2E1EA7011923C5060027790D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1EA6E01923C5050027790D /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		2E1EA6EF1923C5050027790D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E1EA6F01923C5050027790D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2E1EA6F31923C5050027790D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2E1EA6F51923C5050027790D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E1EA6F61923C5050027790D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E1EA6F51923C5050027790D /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		2E1EA6F61923C5050027790D /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		2E1EA6F81923C5050027790D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2E1EA6FE1923C5050027790D /* SafariTNGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariTNGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1EA6FF1923C5050027790D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				2E1EA6EF1923C5050027790D /* AppDelegate.h */,
 				2E1EA6F01923C5050027790D /* AppDelegate.m */,
 				2E1EA6F21923C5050027790D /* Main.storyboard */,
-				2E1EA6F51923C5050027790D /* ViewController.h */,
-				2E1EA6F61923C5050027790D /* ViewController.m */,
+				2E1EA6F51923C5050027790D /* WebViewController.h */,
+				2E1EA6F61923C5050027790D /* WebViewController.m */,
 				2E1EA6F81923C5050027790D /* Images.xcassets */,
 				2E1EA6E71923C5050027790D /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E1EA6F71923C5050027790D /* ViewController.m in Sources */,
+				2E1EA6F71923C5050027790D /* WebViewController.m in Sources */,
 				2E1EA6F11923C5050027790D /* AppDelegate.m in Sources */,
 				2E1EA6ED1923C5050027790D /* main.m in Sources */,
 			);
